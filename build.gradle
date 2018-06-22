@@ -1,0 +1,14 @@
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'idea'
+    id 'eclipse'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+mainClassName = 'minisplit.Scenario'
